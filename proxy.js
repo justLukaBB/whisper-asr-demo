@@ -9,7 +9,7 @@ app.use(cors())
 app.use(
   '/proxy',
   createProxyMiddleware({
-    target: 'http://127.0.0.1:9000',
+    target: 'http://49.12.97.203:9000',
     changeOrigin: true,
     pathRewrite: {
       '^/proxy': '',
