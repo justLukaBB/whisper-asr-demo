@@ -10,7 +10,7 @@ let scriptProcessorNode
 let silenceStart
 const silenceDuration = 2 // in seconds
 const whisperEndpoint =
-  'http://localhost:3000/proxy/asr?task=transcribe&output=json'
+  'http://49.12.97.203:3000/proxy/asr?task=transcribe&output=json'
 
 async function init() {
   try {
